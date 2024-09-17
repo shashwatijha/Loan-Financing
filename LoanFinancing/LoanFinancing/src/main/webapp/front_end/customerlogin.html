@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="ISO-8859-1">
+    <title>Insert title here</title>
+
+    <script src="jquery.js"></script> 
+    <script type="text/javascript" src="js/login.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/customerActions.js"></script>
+    </head>
+    <body>
+        <h2>Login as Customer</h2>
+        <form>
+        Enter username <input type="text" id="usrname"> <br>
+        Enter password <input type="password" id="pwd">
+        <span id="loginerror"></span>
+        </form>
+        <button onclick="login()" class="btn btn-primary ">Login</button>
+        <br>
+        New User? <a href="registerCustomer.html">Click here</a>
+    </body>
+</html>

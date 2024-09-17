@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <script type="text/javascript" src="js/register.js"></script>
+        <script>
+        //     var password = document.getElementById("password")
+        //     var confirm_password = document.getElementById("confirm_password");
+
+        //     function check(){
+        //     if(password.value != confirm_password.value) {
+        //        alert("Passwords don't match");
+        //     } else {
+        //         confirm_password.setCustomValidity('');
+        //     }
+        //     }
+        //    // password.onchange = validatePassword;
+        //    // confirm_password.onclick = validatePassword;
+        </script>
+
+    </head>
+    <body>
+        <h1>New Customer</h1>
+        <div>
+            <table>
+            <tr><td>First Name:</td> <td><input type="text" id="fName"></td></tr>
+            <tr><td>Last Name:</td> <td><input type="text" id="lName"></td></tr>
+            <tr></tr><td>Gender:</td><td><select name="gender" id="gender">
+                <option disabled selected value>Select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+              </select></td></tr>
+            <tr><td>Address:</td><td><input type="text" id="address"></td></tr>
+             <tr><td>e-mail:</td><td><input type="text" id="email"></td></tr>
+             <tr><td>Mobile:</td><td><input type="text" id="mobile"></td></tr>
+            <tr><td>Password:</td><td> <input type="password" id="password" required></td></tr>
+              <tr><td>  <button onclick="register()">Confirm</button></td></tr>
+        </table>
+        </div>
+        <div id="userId"></div>
+        
+    </body>
+</html>
+
